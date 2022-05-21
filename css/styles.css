@@ -1,0 +1,224 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --secondary-text-color: #FFFFFF;
+    --background-color-dark: #2F303A;
+    --background-color-grey: #F5F4FA;
+    --background-color-white: #FFFFFF;
+    --accent-color: #2196F3;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--primary-text-color);
+    background-color: var(--background-color-white);
+    margin: 0px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.btn {
+    font-family: inherit;
+    cursor: pointer;
+    color: var(--title-text-color);
+    background-color: var(--background-color-grey)
+}
+
+.title {
+    font-weight: 700;
+    color: var(--title-text-color);
+}
+
+.hero-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+.portfolio-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.hero-btn:hover,
+.hero-btn:focus,
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    color: var(--secondary-text-color);
+    background-color: var(--accent-color);
+}
+
+.header-logo,
+.footer-logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.accent {
+    color: var(--accent-color)
+}
+
+.header-logo {
+    color: var(--title-text-color);
+}
+
+.nav-link,
+.contact-link {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.nav-link {
+    color: var(--title-text-color);
+}
+
+.contact-link {
+    color: var(--primary-text-color);
+}
+
+.nav-item.active .nav-link {
+    color: var(--accent-color);
+}
+
+.contact-link:hover,
+.contact-link:focus,
+.address .contact-item.url .contact-link:hover,
+.address .contact-item.url .contact-link:focus,
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--accent-color);
+}
+
+
+/*---Sections---*/
+
+.hero {
+    background-color: var(--background-color-dark);
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.section-title {
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.feature-title {
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.section-team {
+    background-color: var(--background-color-grey);
+}
+
+.team-item,
+.portfolio-item {
+    background-color: var(--background-color-white)
+}
+
+.team-item {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.member-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.member-position {
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.portfolio-item {
+    border: 1px solid #EEEEEE;
+}
+
+.portfolio-title {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.portfolio-project {
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+}
+
+
+/*-----Footer-----*/
+
+.address .contact-link {
+    font-style: normal;
+}
+
+.address .contact-item.url .contact-link {
+    color: var(--secondary-text-color)
+}
+
+.footer {
+    background-color: var(--background-color-dark);
+}
+
+.footer-logo {
+    color: var(--secondary-text-color)
+}
+
+.address-list .contact-link {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
