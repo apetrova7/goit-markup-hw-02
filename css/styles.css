@@ -6,6 +6,7 @@
     --background-color-grey: #F5F4FA;
     --background-color-white: #FFFFFF;
     --accent-color: #2196F3;
+    --footer-text-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -205,6 +206,10 @@ body {
     font-style: normal;
 }
 
+.address .contact-item .contact-link {
+    color: var(--footer-text-color)
+}
+
 .address .contact-item.url .contact-link {
     color: var(--secondary-text-color)
 }
@@ -215,10 +220,4 @@ body {
 
 .footer-logo {
     color: var(--secondary-text-color)
-}
-
-.address-list .contact-link {
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
 }
